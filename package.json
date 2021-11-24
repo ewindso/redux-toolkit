@@ -90,7 +90,6 @@
     "lint": "eslint src examples",
     "test": "jest --runInBand",
     "type-tests": "yarn tsc -p src/tests && yarn tsc -p src/query/tests",
-    "prepack": "npm run build-prepare"
   },
   "files": [
     "dist/**/*.js",
